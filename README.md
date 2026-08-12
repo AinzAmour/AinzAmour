@@ -8,6 +8,11 @@
   </a>
 </p>
 
+<!-- ASCII ART AVATAR BANNER -->
+<p align="center">
+  <img src="ascii-magic-1.gif" alt="Ainz Cyber ASCII Avatar" width="380" />
+</p>
+
 <!-- BADGES ROW -->
 <p align="center">
   <a href="https://AinZ.Space"><img src="https://img.shields.io/badge/PORTFOLIO-AinZ.Space-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" /></a>
@@ -137,18 +142,19 @@ root@ainz:~# whoami --verbose
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Activity & Visual Identity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AinzAmour&show_icons=true&theme=tokyonight&hide_border=true&title_color=00F0FF&icon_color=00FF9D" width="48%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=AinzAmour&theme=tokyonight&hide_border=true&title_color=00F0FF&side_color=00FF9D" width="48%" alt="GitHub Streak" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AinzAmour&layout=compact&theme=tokyonight&hide_border=true&title_color=00F0FF" width="48%" alt="Top Languages" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AinzAmour&theme=tokyonight&hide_border=true&area=true" width="48%" alt="Activity Graph" />
+  <table align="center" width="100%">
+    <tr>
+      <td width="48%" align="center" valign="middle">
+        <img src="ascii-magic-2.png" alt="Ainz ASCII Cyber Portrait" width="100%" />
+      </td>
+      <td width="52%" align="center" valign="middle">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=AinzAmour&theme=tokyonight&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
