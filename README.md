@@ -8,9 +8,8 @@
   </a>
 </p>
 
-<!-- ASCII ART AVATAR BANNER -->
 <p align="center">
-  <img src="ascii-magic-1.gif" alt="Ainz Cyber ASCII Avatar" width="380" />
+  <img src="ainz-header-3d.svg" alt="AINZ 3D Glowing ASCII Identifier" width="100%" />
 </p>
 
 <!-- BADGES ROW -->
@@ -142,19 +141,10 @@ root@ainz:~# whoami --verbose
 
 ---
 
-## 📊 GitHub Activity & Visual Identity
+## 📊 GitHub Activity
 
 <div align="center">
-  <table align="center" width="100%">
-    <tr>
-      <td width="48%" align="center" valign="middle">
-        <img src="ascii-magic-2.png" alt="Ainz ASCII Cyber Portrait" width="100%" />
-      </td>
-      <td width="52%" align="center" valign="middle">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=AinzAmour&theme=tokyonight&hide_border=true&area=true" width="100%" alt="Activity Graph" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AinzAmour&theme=tokyonight&hide_border=true&area=true" width="95%" alt="Activity Graph" />
 </div>
 
 <br/>

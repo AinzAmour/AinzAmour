@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250" width="100%" height="100%">
+  <defs>
+    <!-- NEON GLOW FILTER -->
+    <filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur1" />
+      <feGaussianBlur stdDeviation="8" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- COLOR ANIMATED GRADIENT -->
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF">
+        <animate attributeName="stop-color" values="#00F0FF; #00FF9D; #FF007F; #00F0FF" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#00FF9D">
+        <animate attributeName="stop-color" values="#00FF9D; #FF007F; #00F0FF; #00FF9D" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7000FF">
+        <animate attributeName="stop-color" values="#7000FF; #00F0FF; #00FF9D; #7000FF" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- SCANLINE PATTERN -->
+    <pattern id="scanline" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-opacity="0.35" stroke-width="1.5" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { filter: drop-shadow(0 0 5px #00F0FF) drop-shadow(0 0 15px #00F0FF); }
+      50% { filter: drop-shadow(0 0 10px #00FF9D) drop-shadow(0 0 25px #00FF9D); }
+    }
+    @keyframes floatAnim {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-3px); }
+    }
+    .bg-rect {
+      fill: #080c14;
+      stroke: #1e293b;
+      stroke-width: 1.5;
+      rx: 12px;
+    }
+    .ascii-text {
+      font-family: 'Consolas', 'Fira Code', 'Courier New', monospace;
+      font-weight: 700;
+      font-size: 15px;
+      fill: url(#cyber-grad);
+      animation: pulseGlow 4s ease-in-out infinite, floatAnim 5s ease-in-out infinite;
+      white-space: pre;
+    }
+    .term-title {
+      font-family: 'Consolas', 'Fira Code', monospace;
+      font-size: 11px;
+      fill: #64748b;
+      letter-spacing: 1.5px;
+    }
+  </style>
+
+  <!-- BACKGROUND CARD -->
+  <rect width="698" height="248" x="1" y="1" class="bg-rect" />
+  <rect width="698" height="248" x="1" y="1" fill="url(#scanline)" rx="12" />
+
+  <!-- TERMINAL HEADER BAR -->
+  <circle cx="20" cy="18" r="4.5" fill="#ef4444" opacity="0.8" />
+  <circle cx="34" cy="18" r="4.5" fill="#eab308" opacity="0.8" />
+  <circle cx="48" cy="18" r="4.5" fill="#22c55e" opacity="0.8" />
+  <text x="350" y="22" text-anchor="middle" class="term-title">AINZ // 3D CYBER IDENTIFIER</text>
+
+  <!-- 3D ASCII TEXT CONTENT -->
+  <g class="ascii-text" filter="url(#neon-glow)">
+    <text x="50%" y="48" text-anchor="middle" xml:space="preserve">      ___                       ___           ___     </text>
+    <text x="50%" y="65" text-anchor="middle" xml:space="preserve">     /\  \          ___        /\__\         /\  \    </text>
+    <text x="50%" y="82" text-anchor="middle" xml:space="preserve">    /::\  \        /\  \      /::|  |        \:\  \   </text>
+    <text x="50%" y="99" text-anchor="middle" xml:space="preserve">   /:/\:\  \       \:\  \    /:|:|  |         \:\  \  </text>
+    <text x="50%" y="116" text-anchor="middle" xml:space="preserve">  /::\~\:\  \      /::\__\  /:/|:|  |__        \:\  \ </text>
+    <text x="50%" y="133" text-anchor="middle" xml:space="preserve"> /:/\:\ \:\__\  __/:/\/__/ /:/ |:| /\__\ ______\:\__\</text>
+    <text x="50%" y="150" text-anchor="middle" xml:space="preserve"> \/__\:\/:/  / /\/:/  /    \/__|:|/:/  / \::::::::/__/</text>
+    <text x="50%" y="167" text-anchor="middle" xml:space="preserve">      \::/  /  \::/__/         |:/:/  /   \:\~~\~~    </text>
+    <text x="50%" y="184" text-anchor="middle" xml:space="preserve">      /:/  /    \:\__\         |::/  /     \:\  \     </text>
+    <text x="50%" y="201" text-anchor="middle" xml:space="preserve">     /:/  /      \/__/         /:/  /       \:\__\    </text>
+    <text x="50%" y="218" text-anchor="middle" xml:space="preserve">     \/__/                     \/__/         \/__/    </text>
+  </g>
+</svg>
