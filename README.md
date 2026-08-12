@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/AinzAmour/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Cybersecurity%20Analyst;VAPT%20%26%20AppSec%20Specialist;Linux%20Infrastructure%20Hardening;Enterprise%20Sandbox%20Architect;CTF%20Winner%20%26%20Bug%20Bounty%20Researcher&font=Fira%20Code&center=true&width=550&height=45&color=00F0FF&vCenter=true&size=20">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Cybersecurity%20Analyst;VAPT%20%26%20AppSec%20Specialist;Linux%20Infrastructure%20Hardening;Enterprise%20Sandbox%20Architect;CTF%20Winner%20%26%20Bug%20Bounty%20Researcher&font=Fira%20Code&center=true&width=550&height=45&color=00F0FF&vCenter=true&size=20">
   </a>
 </p>
 
@@ -141,7 +141,7 @@ root@ainz:~# whoami --verbose
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AinzAmour&show_icons=true&theme=tokyonight&hide_border=true&title_color=00F0FF&icon_color=00FF9D" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=AinzAmour&theme=tokyonight&hide_border=true&title_color=00F0FF&side_color=00FF9D" width="48%" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=AinzAmour&theme=tokyonight&hide_border=true&title_color=00F0FF&side_color=00FF9D" width="48%" alt="GitHub Streak" />
 </div>
 
 <br/>
