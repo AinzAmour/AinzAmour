@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/AinzAmour/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Cybersecurity%20Analyst;VAPT%20%26%20AppSec%20Specialist;Linux%20Infrastructure%20Hardening;Enterprise%20Sandbox%20Architect;CTF%20Winner%20%26%20Bug%20Bounty%20Researcher&font=Fira%20Code&center=true&width=550&height=45&color=00F0FF&vCenter=true&size=20">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Cybersecurity%20Analyst;VAPT%20%26%20AppSec%20Specialist;Linux%20Infrastructure%20Hardening;Full-Stack%20MERN%20Engineer;CTF%20Winner%20%26%20Bug%20Bounty%20Researcher&font=Fira%20Code&center=true&width=580&height=45&color=00F0FF&vCenter=true&size=20">
   </a>
 </p>
 
@@ -14,9 +14,10 @@
 
 <!-- BADGES ROW -->
 <p align="center">
-  <a href="https://AinZ.Space"><img src="https://img.shields.io/badge/PORTFOLIO-AinZ.Space-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" /></a>
+  <a href="https://ainz.space"><img src="https://img.shields.io/badge/PORTFOLIO-ainz.space-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio" /></a>
+  <a href="https://ainz.space/projects.html"><img src="https://img.shields.io/badge/SHOWCASE-ainz.space%2Fprojects-00FF9D?style=for-the-badge&logo=cubes&logoColor=black" alt="Deep-Dives" /></a>
   <a href="https://www.linkedin.com/in/mhr-ainz"><img src="https://img.shields.io/badge/LINKEDIN-mhr--ainz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:Ainz.Mhr@gmail.com"><img src="https://img.shields.io/badge/EMAIL-Ainz.Mhr%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:ainz.mhr@gmail.com"><img src="https://img.shields.io/badge/EMAIL-ainz.mhr%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/LOCATION-Chennai%2C%20India-00FF9D?style=for-the-badge&logo=googlemaps&logoColor=black" alt="Location" />
 </p>
 
@@ -34,7 +35,7 @@ root@ainz:~# whoami --verbose
 [+] Role        : Cybersecurity Analyst | VAPT | Application Security | Linux Infrastructure
 [+] Mission     : Bridging offensive vulnerability research with defensive infrastructure hardening.
 [+] Recognition : Zerodha CISO Certificate of Appreciation | 1st Place ARCANE 2K25 CTF
-[+] Status      : Available for Security Analyst / VAPT / AppSec Opportunities
+[+] Status      : Available for Cybersecurity, Systems & Full-Stack Opportunities | Ready for Work
 ```
 
 ---
@@ -54,11 +55,11 @@ root@ainz:~# whoami --verbose
     <td width="50%" valign="top">
       <h3>🥇 CTF Wall of Fame</h3>
       <ul>
-        <li>🥇 <b>1st Place</b> — ARCANE 2K25 National CTF</li>
+        <li>🥇 <b>1st Place (Winner)</b> — ARCANE 2K25 National CTF</li>
         <li>🥈 <b>2nd Place</b> — TECHASTRA '25 National CTF</li>
-        <li>🥉 <b>3rd Place</b> — ZERODAY CTF 2025 (Global)</li>
-        <li>🥉 <b>3rd Place</b> — Hackers Asylum CTF</li>
-        <li>🏅 <b>Top 25 Finalist</b> — H7CTF (SRM University)</li>
+        <li>🥉 <b>3rd Place</b> — ZERODAY CTF 2025 Global CTF (Z3R0_L0G0N)</li>
+        <li>🥉 <b>3rd Place</b> — Hackers Asylum CTF (SSN College of Engineering)</li>
+        <li>🏅 <b>Top 25 Finalist</b> — H7CTF International CTF (SRM University)</li>
       </ul>
     </td>
   </tr>
@@ -66,28 +67,44 @@ root@ainz:~# whoami --verbose
 
 ---
 
-## 🚀 Featured Engineering & Security Projects
+## 🚀 Flagship Engineering & Security Projects
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🛡️ NEXUS-01</h3>
-      <p align="center"><b>Enterprise Hybrid Home Lab & Cyber Threat Sandbox</b></p>
+      <h3 align="center">🛡️ NEXUS-HOMELAB</h3>
+      <p align="center"><b>Hardened Infrastructure & Cyber Threat Sandbox</b></p>
+      <p align="center">
+        <a href="https://github.com/AinzAmour/NEXUS-HOMELAB/actions"><img src="https://github.com/AinzAmour/NEXUS-HOMELAB/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
+      </p>
       <ul>
-        <li><b>Architecture:</b> Hardened Linux host with segregated Docker networks for ingress, telemetry, threat sandbox, and storage.</li>
-        <li><b>Security Baseline:</b> Kernel <code>sysctl</code> hardening, UFW default-deny ingress, Fail2ban, ED25519 key-only SSH, disabled root SSH.</li>
-        <li><b>Cyber Sandbox:</b> Isolated DVWA & OWASP Juice Shop environment for controlled vulnerability assessment & attack simulation.</li>
-        <li><b>Observability & Backups:</b> Prometheus + Grafana telemetry, Uptime Kuma monitoring, local AI inference (Ollama/Open WebUI), Restic 3-2-1 encrypted backups.</li>
+        <li><b>Architecture:</b> Linux host with 5 segregated Docker networks for ingress, telemetry, AI inference, storage, and sandbox.</li>
+        <li><b>Security Baseline:</b> Kernel <code>sysctl</code> hardening (SYN flood & ICMP protection), Fail2ban active ban policy, ED25519 key-only SSH.</li>
+        <li><b>Cyber Sandbox:</b> Air-gapped DVWA & OWASP Juice Shop environment for controlled exploit assessment.</li>
+        <li><b>Observability & Backups:</b> Prometheus + Grafana telemetry, Uptime Kuma monitoring, local Ollama AI, automated Restic 3-2-1 backups.</li>
       </ul>
+      <p align="center">
+        <a href="https://github.com/AinzAmour/NEXUS-HOMELAB"><b>[View Repository ↗]</b></a> &nbsp;|&nbsp;
+        <a href="https://ainz.space/projects.html#nexus-homelab"><b>[Architecture Deep-Dive ↗]</b></a>
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🧱 Adaptive WAF & SIEM</h3>
-      <p align="center"><b>Containerized Defense & Attack Inspection</b></p>
+      <h3 align="center">🏢 NEXUS-VMS</h3>
+      <p align="center"><b>Enterprise Workplace Access Management System</b></p>
+      <p align="center">
+        <a href="https://github.com/AinzAmour/NEXUS-VMS/actions"><img src="https://github.com/AinzAmour/NEXUS-VMS/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
+      </p>
       <ul>
-        <li><b>WAF Engine:</b> Custom containerized Web Application Firewall rules targeting SQL Injection, XSS, and authentication brute-force activity.</li>
-        <li><b>SIEM Integration:</b> Lightweight SIEM ingestion pipeline for real-time web attack inspection, HTTP telemetry, and alert generation.</li>
-        <li><b>Automated Mitigation:</b> Dynamic rate-limiting and automated IP blocking rules for active threat mitigation.</li>
+        <li><b>Full-Stack MERN:</b> React 18, Vite, Node.js, Express, MongoDB Atlas, and Tailwind CSS.</li>
+        <li><b>Multi-Role RBAC:</b> Role-based access control across Admin, Receptionist, and Host Employee portals.</li>
+        <li><b>AppSec Engineering:</b> Stateless HMAC-SHA256 JWT, Helmet HTTP security headers, bcrypt salting, and rate-limiting.</li>
+        <li><b>Production UI:</b> Keyboard Command Palette (Cmd+K), real-time visitor queues, and printable security pass badge generation.</li>
       </ul>
+      <p align="center">
+        <a href="https://nexus-vpms.vercel.app"><b>[Launch Live Web App ↗]</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/AinzAmour/NEXUS-VMS"><b>[View Source ↗]</b></a> &nbsp;|&nbsp;
+        <a href="https://ainz.space/projects.html#nexus-vms"><b>[Security Deep-Dive ↗]</b></a>
+      </p>
     </td>
   </tr>
 </table>
@@ -128,13 +145,14 @@ root@ainz:~# whoami --verbose
   <img src="https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
 </p>
 
-### Languages & Automation
+### Full-Stack & Automation
 <p>
+  <img src="https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
 </div>
@@ -167,8 +185,9 @@ root@ainz:~# whoami --verbose
 
 <p>
   <a href="https://linkedin.com/in/mhr-ainz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:Ainz.Mhr@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://AinZ.Space"><img src="https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=googlechrome&logoColor=black" /></a>
+  <a href="mailto:ainz.mhr@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://ainz.space"><img src="https://img.shields.io/badge/Portfolio-00F0FF?style=flat-square&logo=googlechrome&logoColor=black" /></a>
+  <a href="https://ainz.space/projects.html"><img src="https://img.shields.io/badge/Deep--Dives-00FF9D?style=flat-square&logo=cubes&logoColor=black" /></a>
 </p>
 
 <sub><i>"System Status: Hardened | Ingress Restricted | Telemetry Active"</i></sub>
